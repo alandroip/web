@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"  href="estilo.css">
+  <title>Cuestionario</title>
+</head> 
+<body>
+  <h1>Cuestionario 6101</h1>
+  <form>
+    
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    
+    <label for="opcion">¿Que es html?</label>
+    <select id="opcion" name="opcion">
+      <option value="leguaje estandar para crear y ver paginas web">leguaje estandar para crear y ver paginas web</option>
+      <option value="">Azul</option>
+      <option value="verde">Verde</option>
+    </select><br><br>
+
+    <!-- Pregunta 3: Checkbox -->
+    <label for="intereses">¿Cuáles son tus intereses?</label>
+    <input type="checkbox" id="interes1" name="intereses[]" value="deporte">
+    <label for="interes1">Deporte</label>
+    <input type="checkbox" id="interes2" name="intereses[]" value="música">
+    <label for="interes2">Música</label>
+    <input type="checkbox" id="interes3" name="intereses[]" value="lectura">
+    <label for="interes3">Lectura</label><br><br>
+
+    <!-- Pregunta 4: Selección de dos respuestas -->
+    <label for="respuesta">¿Cuál es tu género favorito de música?</label>
+    <input type="radio" id="genero1" name="genero" value="rock">
+    <label for="genero1">Rock</label>
+    <input type="radio" id="genero2" name="genero" value="pop">
+    <label for="genero2">Pop</label><br><br>
+
+    <!-- Pregunta 5: Respuesta abierta -->
+    <label for="respuesta_abierta">¿Como editar en html?</label>
+    <textarea id="respuesta_abierta" name="respuesta_abierta"></textarea><br><br>
+
+    
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
